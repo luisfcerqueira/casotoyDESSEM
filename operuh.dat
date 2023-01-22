@@ -1,0 +1,133 @@
+& ARQUIVO COM RESTRICOES OPERACIONAIS PARA OS ELEMENTOS
+& HIDRAULICOS NA CONFIGURACAO DO DESSEM.
+& 
+& 
+&-----------------------------------------------------------------------------------------
+&Ind       : Indice da restricao; 
+&T         : Tipo da Restricao: L-Limite, V-Variacao;
+&Descricao : Comentario para a restricao;
+&VL Inicial: Valor inicial para as restricoes de variacao;
+&Num       : numero da usina;
+&Nome      : Nome da usina;
+&U         : Tipo da usina: H-Hidroeletrica, E-Elevatoria;
+&CD        : Tipo da variavel da usina: 1 a 7. Maiores detalhes no manual;
+&Fator     : fator de participacao da usina nesta restricao;
+&DI        : Dia de inicio de validade para o registro;
+&HI        : Hora de inicio de validade para o registro;
+&I         : Meia-Hora de inicio de validade para o registro;
+&DF        : Dia de fim de validade para o registro;
+&HF        : Hora de fim de validade para o registro;
+&F         : Meia-hora de fim de validade para o registro;
+&Minimo    : Limite inferior da retricao;
+&Maximo    : Limite superior da retricao;
+&VarMin(%) : Variacao maxima de descida em percentual do valor maximo da variavel;
+&VarMax(%) : Variacao maxima de subida em percentual do valor maximo da variavel;
+&VarMin    : Variacao maxima de descida em valor absoluto;
+&VarMax    : Variacao maxima de subida em valor absoluto;
+&&-----------------------------------------------------------------------------------------
+&&Cemig
+&&-----------------------------------------------------------------------------------------
+&&PERUH REST Ind T Descricao VL Inicial
+&&XXXXX XXXXXX xxxxx x xxxxxxxxxxxx xxxxxxxxxx
+&&-----------------------------------------------------------------------------------------
+OPERUH REST   00141  L     RHQ            
+OPERUH ELEM   00141 162  QUEIMADO        4   1.0
+OPERUH LIM    00141  I       F               1.0
+&
+OPERUH REST   00142  L     RHQ            
+OPERUH ELEM   00142 162  QUEIMADO        6   1.0
+OPERUH LIM    00142  I       F                         204
+&
+&&
+&& Compatibilizado com FSARH 2067
+&&
+OPERUH REST   00381  L     RHQ            
+OPERUH ELEM   00381 162  QUEIMADO        6   1.0
+OPERUH LIM    00381  I       F             8.800
+&&
+&&
+&&
+&&
+&&defluente total sazonal de 1/novembro a 30/abril
+&&
+&&
+&&
+OPERUH REST   00740  L     RHQ            
+OPERUH ELEM   00740 162  QUEIMADO        4   1.0
+OPERUH LIM    00740  I       F                        7.00
+&&
+&&
+&&
+&&
+&&Condicionado ao Volume útil < 70%
+&&Volume util no NP  = 64.63 
+&&
+&&
+&&
+&&
+OPERUH REST   02788  L     RHQ            
+OPERUH ELEM   02788 156  TRES MARIAS     6   1.0
+OPERUH LIM    02788  I       5 00 0          600
+&
+OPERUH REST   02789  L     RHQ            
+OPERUH ELEM   02789 156  TRES MARIAS     6   1.0
+OPERUH LIM    02789  5 00 0  F               415
+&
+&&Chesf
+&&-----------------------------------------------------------------------------------------
+&&PERUH REST Ind T Descricao VL Inicial
+&&XXXXX XXXXXX xxxxx x xxxxxxxxxxxx xxxxxxxxxx
+&&-----------------------------------------------------------------------------------------
+&&
+&&
+OPERUH REST   00220  L     RHQ            
+OPERUH ELEM   00220 169  SOBRADINHO      6   1.0
+OPERUH LIM    00220  I       F                        8000
+&
+OPERUH REST   00225  L     RHQ            
+OPERUH ELEM   00225 178  XINGO           6   1.0
+OPERUH LIM    00225  I       F                        8000
+&
+OPERUH REST   00535  V     RHQ            2082.82
+OPERUH ELEM   00535 178  XINGO           6   1.0
+OPERUH VAR    00535 I       F                                             300
+&
+OPERUH REST   00680  L     RHQ            
+OPERUH ELEM   00680 169  SOBRADINHO      6   1.0
+OPERUH LIM    00680  I       F               800
+&
+&Ajustado conforme Informe do São Francisco
+&
+OPERUH REST   01727  L     RHV            
+OPERUH ELEM   01727 172  ITAPARICA       1   1.0
+OPERUH LIM    01727  I       F            300.66
+&
+&&RBE
+&&-----------------------------------------------------------------------------------------
+&&PERUH REST Ind T Descricao VL Inicial
+&&XXXXX XXXXXX xxxxx x xxxxxxxxxxxx xxxxxxxxxx
+&&-----------------------------------------------------------------------------------------
+OPERUH REST   00348  L     RHQ            
+OPERUH ELEM   00348 155  RETIRO BAIXO    6   1.0
+OPERUH LIM    00348  I       F            27.670
+&
+&
+&..................Restricoes de outras naturezas......................................
+&
+&OPERUH REST   02639  V     RHQ            2082.82
+&OPERUH ELEM   02639 178  XINGO           6   1.0
+&OPERUH VAR    02639 I       F                                   300           
+&
+&&
+&&
+&&Conforme FSAR-Hs 2649, para defluencias abaixo de 4.000 m³/s na UHE Jupiá 
+&&é preciso  manter a cota de 257.30 [m] mínima na UHE Porto Primavera
+&&Vazão defluente da UHE Jupia no NP  = 3384.4
+&&Flexibilizado para convergencia
+&
+&Conforme Informe da bacia do São Francisco
+OPERUH REST   99220  L     RHQ            
+OPERUH ELEM   99220 178  XINGO           6   1.0
+OPERUH LIM    99220  I       F              1100
+&
+&-----------------------------------------------------------------------------------------

@@ -1,0 +1,641 @@
+& CADASTRO DAS USINAS/UNIDADES TERMICAS
+& 
+& CARACTERISTICAS DAS USINAS TERMICAS
+& 
+&ADUSIT  us     nome     ss yyyy mm dd hr mh nunid
+&ADUSIT XXX XXXXXXXXXXXX XX XXXX XX XX XX X   XX
+CADUSIT  49 VIANA         1 2010 01 06 00 0    4
+CADUSIT  52 CAMPINA GDE   3 2011 02 08 00 0    4
+CADUSIT  54 JUIZ DE FORA  1 2002 02 02 00 0    2
+CADUSIT  90 TERMOMACAE    1 2001 12 19 00 0   20
+CADUSIT 108 XAVANTES      1 2008 01 01 00 0    2
+CADUSIT 144 PETROLINA     3 2009 01 01 00 0    8
+CADUSIT 155 GOIANIA II    1 2009 01 17 00 0    2
+CADUSIT 182 PALMEIRAS GO  1 2012 07 17 00 0    2
+&--------------------------------------------------------------------------------------------------------------------------------------------
+& CARACTERISTICAS DAS UNIDADES TERMICAS EQUIVALENTES DE CADA USINA
+& 
+&ADUNIDT  us un yyyy mm dd hr mh     Pot        PotMin    On    Of      CCold       CHot       CSTD       RUp     RDown   F No Equ Rampa tran
+&ADUNIDT XXX XX XXXX xx XX XX X  XXXXXXXXXX XXXXXXXXXX XXXXX XXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX XXXXXXXXXX  XXXXXXXXX X XX XXX XXXXXXXXXX
+& UTE VIANA                                                                                                              
+CADUNIDT  49  3 2021 05 01 00 0      43.650      8.730     6     2                                                               2      8.730          
+CADUNIDT  49  4 2021 05 01 00 0      87.300     52.380     6     2                                                               2      8.730
+CADUNIDT  49  1 2021 05 01 00 0     130.950     96.030     6     2                                                               2      8.730
+CADUNIDT  49  2 2021 05 01 00 0     174.600    139.680     6     2                                                               2      8.730
+& UTE CAMPINA GRANDE  
+CADUNIDT  52  1 2021 05 01 00 0      42.270     31.000     6     3                                      22.000     22.000
+CADUNIDT  52  2 2021 05 01 00 0      42.270     31.000     6     3                                      22.000     22.000
+CADUNIDT  52  3 2021 05 01 00 0      42.270     31.000     6     3                                      22.000     22.000
+CADUNIDT  52  4 2021 05 01 00 0      42.270     31.000     6     3                                      22.000     22.000
+& UTE JUIZ DE FORA                                                                                                       
+CADUNIDT  54  1 2021 05 01 00 0      43.935     35.000     5     6                                                       
+CADUNIDT  54  2 2021 05 01 00 0      43.113     35.000     5     6                                                       
+& UTE TERMOMACAE                                                                                                         
+CADUNIDT  90  1 2021 05 01 00 0      45.000     35.000     5     6                                                               2   
+CADUNIDT  90  2 2021 05 01 00 0      90.000     70.000     5     6                                                               2
+CADUNIDT  90  3 2021 05 01 00 0     135.000    105.000     5     6                                                               2
+CADUNIDT  90  4 2021 05 01 00 0     180.000    140.000     5     6                                                               2
+CADUNIDT  90  5 2021 05 01 00 0     225.000    175.000     5     6                                                               2
+CADUNIDT  90  6 2021 05 01 00 0     270.000    210.000     6     6                                                               2
+CADUNIDT  90  7 2021 05 01 00 0     315.000    245.000     6     6                                                               2
+CADUNIDT  90  8 2021 05 01 00 0     360.000    280.000     6     6                                                               2
+CADUNIDT  90  9 2021 05 01 00 0     405.000    315.000     6     6                                                               2
+CADUNIDT  90 10 2021 05 01 00 0     450.000    350.000     6     6                                                               2
+CADUNIDT  90 11 2021 05 01 00 0     495.000    385.000     6     6                                                               2
+CADUNIDT  90 12 2021 05 01 00 0     540.000    420.000     6     6                                                               2
+CADUNIDT  90 13 2021 05 01 00 0     585.000    455.000     6     6                                                               2
+CADUNIDT  90 14 2021 05 01 00 0     630.000    490.000     6     6                                                               2
+CADUNIDT  90 15 2021 05 01 00 0     675.000    525.000     6     6                                                               2
+CADUNIDT  90 16 2021 05 01 00 0     720.000    560.000     7     6                                                               2
+CADUNIDT  90 17 2021 05 01 00 0     765.000    595.000     7     6                                                               2
+CADUNIDT  90 18 2021 05 01 00 0     810.000    630.000     7     6                                                               2
+CADUNIDT  90 19 2021 05 01 00 0     855.000    665.000     7     6                                                               2
+CADUNIDT  90 20 2021 05 01 00 0     900.000    700.000     7     6                                                               2
+& UTE XAVANTES                                                                                                           
+CADUNIDT 108  1 2021 05 01 00 0      26.064     18.000     1     1
+CADUNIDT 108  2 2021 05 01 00 0      27.512     18.000     1     1
+& UTE PETROLINA                                                                                                          
+CADUNIDT 144  1 2021 05 01 00 0      16.500     15.200     8     6                                                               2
+CADUNIDT 144  2 2021 05 01 00 0      33.000     30.400     8     6                                                               2
+CADUNIDT 144  3 2021 05 01 00 0      49.500     45.600     8     6                                                               2
+CADUNIDT 144  4 2021 05 01 00 0      66.000     60.800     8     6                                                               2
+CADUNIDT 144  5 2021 05 01 00 0      82.500     76.000     8     6                                                               2
+CADUNIDT 144  6 2021 05 01 00 0      99.000     91.200     8     6                                                               2
+CADUNIDT 144  7 2021 05 01 00 0     115.500    106.400     8     6                                                               2
+CADUNIDT 144  8 2021 05 01 00 0     132.000    121.600     8     6                                                               2
+& UTE GOIANIA II 
+&FCmax alterado para 0,97 conforme DESPACHO N 3.250, DE 17 DE NOVEMBRO DE 2020
+CADUNIDT 155  1 2021 05 01 00 0      68.060     30.000     8     8
+CADUNIDT 155  2 2021 05 01 00 0      68.060     30.000     8     8
+& UTE PALMEIRAS DE GOIAS                                                                                                 
+CADUNIDT 182  1 2021 05 01 00 0      70.580     50.000     5     5                                      20.000     20.000
+CADUNIDT 182  2 2021 05 01 00 0      69.856     49.500     5     5                                      20.000     20.000
+&&--------------------------------------------------------------------------------------------------------------------------------------------
+&& CONFIGURACOES EQUIVALENTES CICLO COMBINADO E SIMPLES DEPENDENTE
+&&
+&&ADCONF USI EQU UNI
+&&XXXXXX XXX XXX XXX
+&&
+&UTE VIANA
+CADCONF  49   1   1
+CADCONF  49   1   2
+CADCONF  49   1   3
+CADCONF  49   1   4
+&
+CADCONF  49   2   1
+CADCONF  49   2   2
+CADCONF  49   2   3
+CADCONF  49   2   4
+&
+CADCONF  49   3   1
+CADCONF  49   3   2
+CADCONF  49   3   3
+CADCONF  49   3   4
+&
+CADCONF  49   4   1
+CADCONF  49   4   2
+CADCONF  49   4   3
+CADCONF  49   4   4
+&
+& UTE TERMOMACAE
+CADCONF  90   1   1
+CADCONF  90   1   2
+CADCONF  90   1   3
+CADCONF  90   1   4
+CADCONF  90   1   5
+CADCONF  90   1   6
+CADCONF  90   1   7
+CADCONF  90   1   8
+CADCONF  90   1   9
+CADCONF  90   1  10
+CADCONF  90   1  11
+CADCONF  90   1  12
+CADCONF  90   1  13
+CADCONF  90   1  14
+CADCONF  90   1  15
+CADCONF  90   1  16
+CADCONF  90   1  17
+CADCONF  90   1  18
+CADCONF  90   1  19
+CADCONF  90   1  20
+&
+CADCONF  90   2   1
+CADCONF  90   2   2
+CADCONF  90   2   3
+CADCONF  90   2   4
+CADCONF  90   2   5
+CADCONF  90   2   6
+CADCONF  90   2   7
+CADCONF  90   2   8
+CADCONF  90   2   9
+CADCONF  90   2  10
+CADCONF  90   2  11
+CADCONF  90   2  12
+CADCONF  90   2  13
+CADCONF  90   2  14
+CADCONF  90   2  15
+CADCONF  90   2  16
+CADCONF  90   2  17
+CADCONF  90   2  18
+CADCONF  90   2  19
+CADCONF  90   2  20
+&
+CADCONF  90   3   1
+CADCONF  90   3   2
+CADCONF  90   3   3
+CADCONF  90   3   4
+CADCONF  90   3   5
+CADCONF  90   3   6
+CADCONF  90   3   7
+CADCONF  90   3   8
+CADCONF  90   3   9
+CADCONF  90   3  10
+CADCONF  90   3  11
+CADCONF  90   3  12
+CADCONF  90   3  13
+CADCONF  90   3  14
+CADCONF  90   3  15
+CADCONF  90   3  16
+CADCONF  90   3  17
+CADCONF  90   3  18
+CADCONF  90   3  19
+CADCONF  90   3  20
+&
+CADCONF  90   4   1
+CADCONF  90   4   2
+CADCONF  90   4   3
+CADCONF  90   4   4
+CADCONF  90   4   5
+CADCONF  90   4   6
+CADCONF  90   4   7
+CADCONF  90   4   8
+CADCONF  90   4   9
+CADCONF  90   4  10
+CADCONF  90   4  11
+CADCONF  90   4  12
+CADCONF  90   4  13
+CADCONF  90   4  14
+CADCONF  90   4  15
+CADCONF  90   4  16
+CADCONF  90   4  17
+CADCONF  90   4  18
+CADCONF  90   4  19
+CADCONF  90   4  20
+&
+CADCONF  90   5   1
+CADCONF  90   5   2
+CADCONF  90   5   3
+CADCONF  90   5   4
+CADCONF  90   5   5
+CADCONF  90   5   6
+CADCONF  90   5   7
+CADCONF  90   5   8
+CADCONF  90   5   9
+CADCONF  90   5  10
+CADCONF  90   5  11
+CADCONF  90   5  12
+CADCONF  90   5  13
+CADCONF  90   5  14
+CADCONF  90   5  15
+CADCONF  90   5  16
+CADCONF  90   5  17
+CADCONF  90   5  18
+CADCONF  90   5  19
+CADCONF  90   5  20
+&
+CADCONF  90   6   1
+CADCONF  90   6   2
+CADCONF  90   6   3
+CADCONF  90   6   4
+CADCONF  90   6   5
+CADCONF  90   6   6
+CADCONF  90   6   7
+CADCONF  90   6   8
+CADCONF  90   6   9
+CADCONF  90   6  10
+CADCONF  90   6  11
+CADCONF  90   6  12
+CADCONF  90   6  13
+CADCONF  90   6  14
+CADCONF  90   6  15
+CADCONF  90   6  16
+CADCONF  90   6  17
+CADCONF  90   6  18
+CADCONF  90   6  19
+CADCONF  90   6  20
+&
+CADCONF  90   7   1
+CADCONF  90   7   2
+CADCONF  90   7   3
+CADCONF  90   7   4
+CADCONF  90   7   5
+CADCONF  90   7   6
+CADCONF  90   7   7
+CADCONF  90   7   8
+CADCONF  90   7   9
+CADCONF  90   7  10
+CADCONF  90   7  11
+CADCONF  90   7  12
+CADCONF  90   7  13
+CADCONF  90   7  14
+CADCONF  90   7  15
+CADCONF  90   7  16
+CADCONF  90   7  17
+CADCONF  90   7  18
+CADCONF  90   7  19
+CADCONF  90   7  20
+&
+CADCONF  90   8   1
+CADCONF  90   8   2
+CADCONF  90   8   3
+CADCONF  90   8   4
+CADCONF  90   8   5
+CADCONF  90   8   6
+CADCONF  90   8   7
+CADCONF  90   8   8
+CADCONF  90   8   9
+CADCONF  90   8  10
+CADCONF  90   8  11
+CADCONF  90   8  12
+CADCONF  90   8  13
+CADCONF  90   8  14
+CADCONF  90   8  15
+CADCONF  90   8  16
+CADCONF  90   8  17
+CADCONF  90   8  18
+CADCONF  90   8  19
+CADCONF  90   8  20
+&
+CADCONF  90   9   1
+CADCONF  90   9   2
+CADCONF  90   9   3
+CADCONF  90   9   4
+CADCONF  90   9   5
+CADCONF  90   9   6
+CADCONF  90   9   7
+CADCONF  90   9   8
+CADCONF  90   9   9
+CADCONF  90   9  10
+CADCONF  90   9  11
+CADCONF  90   9  12
+CADCONF  90   9  13
+CADCONF  90   9  14
+CADCONF  90   9  15
+CADCONF  90   9  16
+CADCONF  90   9  17
+CADCONF  90   9  18
+CADCONF  90   9  19
+CADCONF  90   9  20
+&
+CADCONF  90  10   1
+CADCONF  90  10   2
+CADCONF  90  10   3
+CADCONF  90  10   4
+CADCONF  90  10   5
+CADCONF  90  10   6
+CADCONF  90  10   7
+CADCONF  90  10   8
+CADCONF  90  10   9
+CADCONF  90  10  10
+CADCONF  90  10  11
+CADCONF  90  10  12
+CADCONF  90  10  13
+CADCONF  90  10  14
+CADCONF  90  10  15
+CADCONF  90  10  16
+CADCONF  90  10  17
+CADCONF  90  10  18
+CADCONF  90  10  19
+CADCONF  90  10  20
+&
+CADCONF  90  11   1
+CADCONF  90  11   2
+CADCONF  90  11   3
+CADCONF  90  11   4
+CADCONF  90  11   5
+CADCONF  90  11   6
+CADCONF  90  11   7
+CADCONF  90  11   8
+CADCONF  90  11   9
+CADCONF  90  11  10
+CADCONF  90  11  11
+CADCONF  90  11  12
+CADCONF  90  11  13
+CADCONF  90  11  14
+CADCONF  90  11  15
+CADCONF  90  11  16
+CADCONF  90  11  17
+CADCONF  90  11  18
+CADCONF  90  11  19
+CADCONF  90  11  20
+&
+CADCONF  90  12   1
+CADCONF  90  12   2
+CADCONF  90  12   3
+CADCONF  90  12   4
+CADCONF  90  12   5
+CADCONF  90  12   6
+CADCONF  90  12   7
+CADCONF  90  12   8
+CADCONF  90  12   9
+CADCONF  90  12  10
+CADCONF  90  12  11
+CADCONF  90  12  12
+CADCONF  90  12  13
+CADCONF  90  12  14
+CADCONF  90  12  15
+CADCONF  90  12  16
+CADCONF  90  12  17
+CADCONF  90  12  18
+CADCONF  90  12  19
+CADCONF  90  12  20
+&
+CADCONF  90  13   1
+CADCONF  90  13   2
+CADCONF  90  13   3
+CADCONF  90  13   4
+CADCONF  90  13   5
+CADCONF  90  13   6
+CADCONF  90  13   7
+CADCONF  90  13   8
+CADCONF  90  13   9
+CADCONF  90  13  10
+CADCONF  90  13  11
+CADCONF  90  13  12
+CADCONF  90  13  13
+CADCONF  90  13  14
+CADCONF  90  13  15
+CADCONF  90  13  16
+CADCONF  90  13  17
+CADCONF  90  13  18
+CADCONF  90  13  19
+CADCONF  90  13  20
+&
+CADCONF  90  14   1
+CADCONF  90  14   2
+CADCONF  90  14   3
+CADCONF  90  14   4
+CADCONF  90  14   5
+CADCONF  90  14   6
+CADCONF  90  14   7
+CADCONF  90  14   8
+CADCONF  90  14   9
+CADCONF  90  14  10
+CADCONF  90  14  11
+CADCONF  90  14  12
+CADCONF  90  14  13
+CADCONF  90  14  14
+CADCONF  90  14  15
+CADCONF  90  14  16
+CADCONF  90  14  17
+CADCONF  90  14  18
+CADCONF  90  14  19
+CADCONF  90  14  20
+&
+CADCONF  90  15   1
+CADCONF  90  15   2
+CADCONF  90  15   3
+CADCONF  90  15   4
+CADCONF  90  15   5
+CADCONF  90  15   6
+CADCONF  90  15   7
+CADCONF  90  15   8
+CADCONF  90  15   9
+CADCONF  90  15  10
+CADCONF  90  15  11
+CADCONF  90  15  12
+CADCONF  90  15  13
+CADCONF  90  15  14
+CADCONF  90  15  15
+CADCONF  90  15  16
+CADCONF  90  15  17
+CADCONF  90  15  18
+CADCONF  90  15  19
+CADCONF  90  15  20
+&
+CADCONF  90  16   1
+CADCONF  90  16   2
+CADCONF  90  16   3
+CADCONF  90  16   4
+CADCONF  90  16   5
+CADCONF  90  16   6
+CADCONF  90  16   7
+CADCONF  90  16   8
+CADCONF  90  16   9
+CADCONF  90  16  10
+CADCONF  90  16  11
+CADCONF  90  16  12
+CADCONF  90  16  13
+CADCONF  90  16  14
+CADCONF  90  16  15
+CADCONF  90  16  16
+CADCONF  90  16  17
+CADCONF  90  16  18
+CADCONF  90  16  19
+CADCONF  90  16  20
+&
+CADCONF  90  17   1
+CADCONF  90  17   2
+CADCONF  90  17   3
+CADCONF  90  17   4
+CADCONF  90  17   5
+CADCONF  90  17   6
+CADCONF  90  17   7
+CADCONF  90  17   8
+CADCONF  90  17   9
+CADCONF  90  17  10
+CADCONF  90  17  11
+CADCONF  90  17  12
+CADCONF  90  17  13
+CADCONF  90  17  14
+CADCONF  90  17  15
+CADCONF  90  17  16
+CADCONF  90  17  17
+CADCONF  90  17  18
+CADCONF  90  17  19
+CADCONF  90  17  20
+&
+CADCONF  90  18   1
+CADCONF  90  18   2
+CADCONF  90  18   3
+CADCONF  90  18   4
+CADCONF  90  18   5
+CADCONF  90  18   6
+CADCONF  90  18   7
+CADCONF  90  18   8
+CADCONF  90  18   9
+CADCONF  90  18  10
+CADCONF  90  18  11
+CADCONF  90  18  12
+CADCONF  90  18  13
+CADCONF  90  18  14
+CADCONF  90  18  15
+CADCONF  90  18  16
+CADCONF  90  18  17
+CADCONF  90  18  18
+CADCONF  90  18  19
+CADCONF  90  18  20
+&
+CADCONF  90  19   1
+CADCONF  90  19   2
+CADCONF  90  19   3
+CADCONF  90  19   4
+CADCONF  90  19   5
+CADCONF  90  19   6
+CADCONF  90  19   7
+CADCONF  90  19   8
+CADCONF  90  19   9
+CADCONF  90  19  10
+CADCONF  90  19  11
+CADCONF  90  19  12
+CADCONF  90  19  13
+CADCONF  90  19  14
+CADCONF  90  19  15
+CADCONF  90  19  16
+CADCONF  90  19  17
+CADCONF  90  19  18
+CADCONF  90  19  19
+CADCONF  90  19  20
+&
+CADCONF  90  20   1
+CADCONF  90  20   2
+CADCONF  90  20   3
+CADCONF  90  20   4
+CADCONF  90  20   5
+CADCONF  90  20   6
+CADCONF  90  20   7
+CADCONF  90  20   8
+CADCONF  90  20   9
+CADCONF  90  20  10
+CADCONF  90  20  11
+CADCONF  90  20  12
+CADCONF  90  20  13
+CADCONF  90  20  14
+CADCONF  90  20  15
+CADCONF  90  20  16
+CADCONF  90  20  17
+CADCONF  90  20  18
+CADCONF  90  20  19
+CADCONF  90  20  20
+&
+&
+&UTE PETROLINA
+CADCONF 144   1   1
+CADCONF 144   1   2
+CADCONF 144   1   3
+CADCONF 144   1   4
+CADCONF 144   1   5
+CADCONF 144   1   6
+CADCONF 144   1   7
+CADCONF 144   1   8
+&
+CADCONF 144   2   1
+CADCONF 144   2   2
+CADCONF 144   2   3
+CADCONF 144   2   4
+CADCONF 144   2   5
+CADCONF 144   2   6
+CADCONF 144   2   7
+CADCONF 144   2   8
+&
+CADCONF 144   3   1
+CADCONF 144   3   2
+CADCONF 144   3   3
+CADCONF 144   3   4
+CADCONF 144   3   5
+CADCONF 144   3   6
+CADCONF 144   3   7
+CADCONF 144   3   8
+&
+CADCONF 144   4   1
+CADCONF 144   4   2
+CADCONF 144   4   3
+CADCONF 144   4   4
+CADCONF 144   4   5
+CADCONF 144   4   6
+CADCONF 144   4   7
+CADCONF 144   4   8
+&
+CADCONF 144   5   1
+CADCONF 144   5   2
+CADCONF 144   5   3
+CADCONF 144   5   4
+CADCONF 144   5   5
+CADCONF 144   5   6
+CADCONF 144   5   7
+CADCONF 144   5   8
+&
+CADCONF 144   6   1
+CADCONF 144   6   2
+CADCONF 144   6   3
+CADCONF 144   6   4
+CADCONF 144   6   5
+CADCONF 144   6   6
+CADCONF 144   6   7
+CADCONF 144   6   8
+&
+CADCONF 144   7   1
+CADCONF 144   7   2
+CADCONF 144   7   3
+CADCONF 144   7   4
+CADCONF 144   7   5
+CADCONF 144   7   6
+CADCONF 144   7   7
+CADCONF 144   7   8
+&
+CADCONF 144   8   1
+CADCONF 144   8   2
+CADCONF 144   8   3
+CADCONF 144   8   4
+CADCONF 144   8   5
+CADCONF 144   8   6
+CADCONF 144   8   7
+CADCONF 144   8   8
+&
+&
+&--------------------------------------------------------------------------------------------------------------------------------------------
+& CONFIGURACOES EQUIVALENTES CICLO SIMPLES DEPENDENTE
+&
+&ADMIN  USI EQU UNI
+&XXXXX  XXX XXX XXX
+&
+&UTE VIANA
+CADMIN   49   1   1
+CADMIN   49   2   2
+CADMIN   49   3   3
+CADMIN   49   4   4
+&
+& UTE TERMOMACAE
+CADMIN   90   1   1
+CADMIN   90   2   2
+CADMIN   90   3   3
+CADMIN   90   4   4
+CADMIN   90   5   5
+CADMIN   90   6   6
+CADMIN   90   7   7
+CADMIN   90   8   8
+CADMIN   90   9   9
+CADMIN   90  10  10
+CADMIN   90  11  11
+CADMIN   90  12  12
+CADMIN   90  13  13
+CADMIN   90  14  14
+CADMIN   90  15  15
+CADMIN   90  16  16
+CADMIN   90  17  17
+CADMIN   90  18  18
+CADMIN   90  19  19
+CADMIN   90  20  20
+&
+&& UTE CURUMIM
+&
+& UTE PETROLINA
+CADMIN  144   1   1
+CADMIN  144   2   2
+CADMIN  144   3   3
+CADMIN  144   4   4
+CADMIN  144   5   5
+CADMIN  144   6   6
+CADMIN  144   7   7
+CADMIN  144   8   8
+&

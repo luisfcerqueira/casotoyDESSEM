@@ -1,0 +1,39 @@
+NUMERO DE USINAS
+XXX
+009
+NUMERO DAS USINAS NO CADASTRO
+1   2   3   4   5   6   7   8   9    
+XXX XXX XXX XXX XXX XXX XXX XXX XXX  
+156 162 169 172 173 174 175 178 155  
+Hr  Dd  Mm  Ano
+XX  XX  XX  XXXX
+00  04  04  2022
+Dia inic(1-SAB...7-SEX); sem da FCF; n. semanas; pre-interesse
+X X X X
+3 1 1 0
+VAZOES DIARIAS PARA CADA USINA (m3/s)
+NUM     NOME      itp   DI HI M DF HF M      VAZAO
+XXX XXXXXXXXXXXX   X    XXxXXxXxXXxXXxX     XXXXXXXXX
+156 TRES MARIAS    1    04      F                 482
+156 TRES MARIAS    1    05      F                 473
+156 TRES MARIAS    1    06      F                 465
+156 TRES MARIAS    1    07      F                 457
+156 TRES MARIAS    1    08      F                 450
+162 QUEIMADO       1    04      F                  25
+162 QUEIMADO       1    06      F                  24
+169 SOBRADINHO     1    04      F                2185
+169 SOBRADINHO     1    05      F                1860
+169 SOBRADINHO     1    06      F                1423
+169 SOBRADINHO     1    07      F                1161
+169 SOBRADINHO     1    08      F                1177
+172 ITAPARICA      1    04      F                   0
+173 MOXOTO         1    04      F                   0
+174 P.AFONSO 123   1    04      F                   0
+175 P.AFONSO 4     1    04      F                   0
+178 XINGO          1    04      F                   0
+155 RETIRO BAIXO   1    04      F                 128
+155 RETIRO BAIXO   1    05      F                 127
+155 RETIRO BAIXO   1    06      F                 126
+155 RETIRO BAIXO   1    07      F                 125
+155 RETIRO BAIXO   1    08      F                 123
+FIM

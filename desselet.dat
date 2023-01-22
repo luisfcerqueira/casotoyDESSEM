@@ -1,0 +1,62 @@
+(-----------------------------------------------------------------------)
+(Arquivos com Dados Eletricos para o DESSEM                             )
+(-----------------------------------------------------------------------)
+(
+( Arquivos de caso base                                                  
+(### (Id C. Base)  (Nome arquivo Caso Base           )                   
+1    leve          leve        .pwf
+2    media         media       .pwf
+3    pesada        pesada      .pwf
+99999
+(( Alteracoes dos casos base
+(### (Id Patamar) YYYYMMDD HH MM TIME T Base (Nome arquivo patamar)
+  01 Estagio01    20220404  0  0  0.5      1 pat01.afp
+  02 Estagio02    20220404  0 30  0.5      1 pat02.afp
+  03 Estagio03    20220404  1  0  0.5      1 pat03.afp
+  04 Estagio04    20220404  1 30  0.5      1 pat04.afp
+  05 Estagio05    20220404  2  0  0.5      1 pat05.afp
+  06 Estagio06    20220404  2 30  0.5      1 pat06.afp
+  07 Estagio07    20220404  3  0  0.5      1 pat07.afp
+  08 Estagio08    20220404  3 30  0.5      1 pat08.afp
+  09 Estagio09    20220404  4  0  0.5      1 pat09.afp
+  10 Estagio10    20220404  4 30  0.5      1 pat10.afp
+  11 Estagio11    20220404  5  0  0.5      1 pat11.afp
+  12 Estagio12    20220404  5 30  0.5      1 pat12.afp
+  13 Estagio13    20220404  6  0  0.5      2 pat13.afp
+  14 Estagio14    20220404  6 30  0.5      2 pat14.afp
+  15 Estagio15    20220404  7  0  0.5      2 pat15.afp
+  16 Estagio16    20220404  7 30  0.5      2 pat16.afp
+  17 Estagio17    20220404  8  0  0.5      3 pat17.afp
+  18 Estagio18    20220404  8 30  0.5      3 pat18.afp
+  19 Estagio19    20220404  9  0  0.5      3 pat19.afp
+  20 Estagio20    20220404  9 30  0.5      3 pat20.afp
+  21 Estagio21    20220404 10  0  0.5      3 pat21.afp
+  22 Estagio22    20220404 10 30  0.5      3 pat22.afp
+  23 Estagio23    20220404 11  0  0.5      2 pat23.afp
+  24 Estagio24    20220404 11 30  0.5      2 pat24.afp
+  25 Estagio25    20220404 12  0  0.5      2 pat25.afp
+  26 Estagio26    20220404 12 30  0.5      2 pat26.afp
+  27 Estagio27    20220404 13  0  0.5      2 pat27.afp
+  28 Estagio28    20220404 13 30  0.5      2 pat28.afp
+  29 Estagio29    20220404 14  0  0.5      2 pat29.afp
+  30 Estagio30    20220404 14 30  0.5      2 pat30.afp
+  31 Estagio31    20220404 15  0  0.5      2 pat31.afp
+  32 Estagio32    20220404 15 30  0.5      2 pat32.afp
+  33 Estagio33    20220404 16  0  0.5      2 pat33.afp
+  34 Estagio34    20220404 16 30  0.5      2 pat34.afp
+  35 Estagio35    20220404 17  0  0.5      3 pat35.afp
+  36 Estagio36    20220404 17 30  0.5      3 pat36.afp
+  37 Estagio37    20220404 18  0  0.5      3 pat37.afp
+  38 Estagio38    20220404 18 30  0.5      3 pat38.afp
+  39 Estagio39    20220404 19  0  0.5      3 pat39.afp
+  40 Estagio40    20220404 19 30  0.5      3 pat40.afp
+  41 Estagio41    20220404 20  0  0.5      3 pat41.afp
+  42 Estagio42    20220404 20 30  0.5      3 pat42.afp
+  43 Estagio43    20220404 21  0  0.5      2 pat43.afp
+  44 Estagio44    20220404 21 30  0.5      2 pat44.afp
+  45 Estagio45    20220404 22  0  0.5      2 pat45.afp
+  46 Estagio46    20220404 22 30  0.5      2 pat46.afp
+  47 Estagio47    20220404 23  0  0.5      2 pat47.afp
+  48 Estagio48    20220404 23 30  0.5      2 pat48.afp
+99999
+FIM

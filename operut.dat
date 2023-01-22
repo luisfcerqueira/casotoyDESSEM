@@ -1,0 +1,119 @@
+& CONDICOES INICIAIS DAS UNIDADES                
+&
+UCTPAR 2
+UCTERM 2
+PINT
+REGRANPTV     1
+AVLCMO 1
+CPLEXLOG
+&
+&Flags Inativos
+&UCTBUSLOC
+&UCTHEURFP   1 100
+&CONSTDADOS 0
+&AJUSTEFCF
+&TOLERILH 1
+&CROSSOVER 1
+&ENGOLIMENTO 0
+FPHADESSEM
+&                                                
+INIT                                             
+&us     nome       ug   st   GerInic     tempo MH A/D T  TITULINFLX
+&XX XXXXXXXXXXXX  XXX   XX   XXXXXXXXXX  XXXXX  X  X  X  XXXXXXXXXX
+ 49  VIANA          1    0        0.000   4865  0  0  0          0.
+ 49  VIANA          2    0        0.000   3346  1  0  0          0.
+ 49  VIANA          3    0        0.000   3360  1  0  0          0.
+ 49  VIANA          4    0        0.000   3359  0  0  0          0.
+ 52  CAMPINA GDE    1    0        0.000   4920  0  0  0          0.
+ 52  CAMPINA GDE    2    0        0.000   4920  0  0  0          0.
+ 52  CAMPINA GDE    3    0        0.000   4920  0  0  0          0.
+ 52  CAMPINA GDE    4    0        0.000   4919  1  0  0          0.
+ 54  JUIZ DE FORA   1    1       35.000      1  0  0  0          0.
+ 54  JUIZ DE FORA   2    1       35.000      1  1  0  0          0.
+ 90  TERMOMACAE     1    0        0.000   4584  0  0  0          0.
+ 90  TERMOMACAE     2    0        0.000   4603  1  0  0          0.
+ 90  TERMOMACAE     3    0        0.000  12271  1  0  0          0.
+ 90  TERMOMACAE     4    0        0.000   4864  1  0  0          0.
+ 90  TERMOMACAE     5    0        0.000   4690  1  0  0          0.
+ 90  TERMOMACAE     6    0        0.000  10919  0  0  0          0.
+ 90  TERMOMACAE     7    0        0.000  21888  0  0  0          0.
+ 90  TERMOMACAE     8    0        0.000  21888  0  0  0          0.
+ 90  TERMOMACAE     9    0        0.000   6912  1  0  0          0.
+ 90  TERMOMACAE    10    0        0.000  21888  0  0  0          0.
+ 90  TERMOMACAE    11    0        0.000  12143  0  0  0          0.
+ 90  TERMOMACAE    12    0        0.000  12149  1  0  0          0.
+ 90  TERMOMACAE    13    0        0.000   4624  0  0  0          0.
+ 90  TERMOMACAE    14    0        0.000  11848  0  0  0          0.
+ 90  TERMOMACAE    15    0        0.000   4656  1  0  0          0.
+ 90  TERMOMACAE    16    0        0.000   4630  1  0  0          0.
+ 90  TERMOMACAE    17    0        0.000   5948  0  0  0          0.
+ 90  TERMOMACAE    18    0        0.000   4596  1  0  0          0.
+ 90  TERMOMACAE    19    0        0.000   4585  0  0  0          0.
+ 90  TERMOMACAE    20    0        0.000   5400  0  0  0          0.
+108  XAVANTES       1    0        0.000   5392  0  0  0          0.
+108  XAVANTES       2    0        0.000   5392  0  0  0          0.
+144  PETROLINA      1    0        0.000   5912  1  0  0          0.
+144  PETROLINA      2    0        0.000  21888  0  0  0          0.
+144  PETROLINA      3    0        0.000   5375  0  0  0          0.
+144  PETROLINA      4    0        0.000   5391  0  0  0          0.
+144  PETROLINA      5    0        0.000  21888  0  0  0          0.
+144  PETROLINA      6    0        0.000   6145  1  0  0          0.
+144  PETROLINA      7    0        0.000   4914  1  0  0          0.
+144  PETROLINA      8    0        0.000   4922  1  0  0          0.
+155  GOIANIA II     1    0        0.000  22220  0  0  0          0.
+155  GOIANIA II     2    0        0.000  22220  0  0  0          0.
+182  PALMEIRAS GO   1    0        0.000    100  1  0  0          0.
+182  PALMEIRAS GO   2    0        0.000    100  0  0  0          0.
+FIM
+&
+&
+& LIMITES E CONDICOES OPERACIONAIS DAS UNIDADES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+&
+OPER                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+&us    nome      un di hi m df hf m Gmin     Gmax       Custo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+&XX XXXXXXXXXXXX XX XX XX X XX XX X XXXXXXXXXXxxxxxxxxxxXXXXXXXXXX                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+155 GOIANIA 2     1  2  0 0 F                              1927.25
+155 GOIANIA 2     2  2  0 0 F                              1927.25
+ 54 JUIZ DE FO    1  2  0 0 F               35              522.96
+ 54 JUIZ DE FO    2  2  0 0 F               35              522.96
+182 PALMEIR_GO    1  2  0 0 F                              1492.83
+182 PALMEIR_GO    2  2  0 0 F                              1492.83
+ 90 T.MACAE       1  2  0 0 F                               880.49
+ 90 T.MACAE       2  2  0 0 F                               880.49
+ 90 T.MACAE       3  2  0 0 F                               880.49
+ 90 T.MACAE       4  2  0 0 F                               880.49
+ 90 T.MACAE       5  2  0 0 F                               880.49
+ 90 T.MACAE       6  2  0 0 F                               880.49
+ 90 T.MACAE       7  2  0 0 F                               880.49
+ 90 T.MACAE       8  2  0 0 F                               880.49
+ 90 T.MACAE       9  2  0 0 F                               880.49
+ 90 T.MACAE      10  2  0 0 F                               880.49
+ 90 T.MACAE      11  2  0 0 F                               880.49
+ 90 T.MACAE      12  2  0 0 F                               880.49
+ 90 T.MACAE      13  2  0 0 F                               880.49
+ 90 T.MACAE      14  2  0 0 F                               880.49
+ 90 T.MACAE      15  2  0 0 F                               880.49
+ 90 T.MACAE      16  2  0 0 F                               880.49
+ 90 T.MACAE      17  2  0 0 F                               880.49
+ 90 T.MACAE      18  2  0 0 F                               880.49
+ 90 T.MACAE      19  2  0 0 F                               880.49
+ 90 T.MACAE      20  2  0 0 F                               880.49
+ 49 VIANA         1  2  0 0 F                              1257.47
+ 49 VIANA         2  2  0 0 F                              1257.47
+ 49 VIANA         3  2  0 0 F                              1257.47
+ 49 VIANA         4  2  0 0 F                              1257.47
+108 XAVANTES      1  2  0 0 F                              2631.53
+108 XAVANTES      2  2  0 0 F                              2631.53
+ 52 CAMPINA_GR    1  2  0 0 F                              1257.49
+ 52 CAMPINA_GR    2  2  0 0 F                              1257.49
+ 52 CAMPINA_GR    3  2  0 0 F                              1257.49
+ 52 CAMPINA_GR    4  2  0 0 F                              1257.49
+144 PETROLINA     1  2  0 0 F                              2014.11
+144 PETROLINA     2  2  0 0 F                              2014.11
+144 PETROLINA     3  2  0 0 F                              2014.11
+144 PETROLINA     4  2  0 0 F                              2014.11
+144 PETROLINA     5  2  0 0 F                              2014.11
+144 PETROLINA     6  2  0 0 F                              2014.11
+144 PETROLINA     7  2  0 0 F                              2014.11
+144 PETROLINA     8  2  0 0 F                              2014.11
+FIM
